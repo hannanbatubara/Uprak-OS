@@ -1,2 +1,3 @@
 # Uprak-OS
-💾 Pintasan Perintah Linux (Sistem Operasi)PerintahTujuan Utama (Pintasan Ingatan)Fungsi LengkapcdPindah ke HomePindah ke direktori home pengguna (~).cd ..Pindah ke IndukPindah ke direktori di atas (direktori parent).pwdLihat PathMenampilkan path (lokasi) direktori kerja saat ini.lsList IsiMenampilkan daftar file dan folder dalam direktori.mkdirBuat FolderMembuat direktori baru.rmdirHapus Folder KosongMenghapus direktori, hanya jika kosong.touchBuat File KosongMembuat file baru dengan ukuran 0 byte.cpMeng-copy (Salin)Menyalin file atau direktori.mvPindah / Ganti NamaMemindahkan file/direktori atau mengganti namanya.rm -rHapus RekursifMenghapus folder dan semua isinya. (Hati-hati!)
+<img width="705" height="513" alt="image" src="https://github.com/user-attachments/assets/b3e835b8-8b5c-49fe-a36a-56a0a00fbefd" />
+
