@@ -9,3 +9,77 @@
 <img width="509" height="721" alt="image" src="https://github.com/user-attachments/assets/114395f1-904a-4889-9f8c-87d028d2d18b" />
 <img width="481" height="331" alt="image" src="https://github.com/user-attachments/assets/62ea56f6-3dc7-44ee-80ec-6b2a7c9e40fa" />
 <img width="795" height="587" alt="image" src="https://github.com/user-attachments/assets/0284d6aa-4125-4531-82ec-f558b2275848" />
+# pindah ke direktori home anda
+cd ~
+
+# buat satu folder kosong 'test'
+mkdir test
+
+# masuk ke direktori 'test'
+cd test
+
+# tampilkan path direktori saat ini
+pwd
+
+# buat file kosong bernama 'empty.txt'
+touch empty.txt
+
+# copy file '/etc/timezone' ke direktori ini
+cp /etc/timezone .
+
+# ubah nama file 'timezone' menjadi 'tz.txt'
+mv timezone tz.txt
+
+# list isi direktori ini
+ls -l
+
+# pindah ke direktori parent
+cd ..
+
+# hapus direktori 'test' seisinya
+rm -r test
+
+# temukan file dengan nama 'fdisk' memakai `locate`
+locate fdisk
+
+# temukan file dengan nama 'fdisk' memakai `find`
+find / -name "fdisk" 2>/dev/null
+
+# temukan file pada home anda yang ukurannya > 200 MB
+find ~ -size +200M 2>/dev/null
+
+# temukan file pada home anda yang diubah < 3 hari
+find ~ -mtime -3 2>/dev/null
+
+# temukan file pada home anda yang diakses > 30 hari
+find ~ -atime +30 2>/dev/null
+
+# tampilkan 5 baris pertama keluaran perintah `last`
+last | head -n 5
+
+# tampilkan dua baris terakhir file '/etc/passwd'
+tail -n 2 /etc/passwd
+
+# cari file di '/usr/include' yang memuat kata 'sem_post'
+grep -R "sem_post" /usr/include 2>/dev/null
+
+# tampilkan kolom 1 dan 5 dari file '/etc/passwd'
+cut -d: -f1,5 /etc/passwd
+
+# tampilkan isi file '/etc/motd' dalam huruf kapital
+tr 'a-z' 'A-Z' < /etc/motd
+
+# jalankan `cat /dev/random > rand.txt` di background
+cat /dev/random > rand.txt &
+
+# tampilkan daftar job
+jobs
+
+# kirim sinyal STOP ke job tersebut
+kill -STOP %1
+
+# lanjutkan job tersebut di background
+kill -CONT %1
+
+# kirim sinyal TERM ke job tersebut
+kill -TERM %1
