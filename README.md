@@ -1,3 +1,5 @@
 # Uprak-OS
-<img width="705" height="513" alt="image" src="https://github.com/user-attachments/assets/b3e835b8-8b5c-49fe-a36a-56a0a00fbefd" />
-<img width="765" height="881" alt="image" src="https://github.com/user-attachments/assets/a646e4c4-121b-4f1c-97bd-87b9024693fa" />
+<img width="641" height="780" alt="image" src="https://github.com/user-attachments/assets/485bdf7d-c0cb-47bd-b74d-2084f0a46da6" />
+<img width="625" height="763" alt="image" src="https://github.com/user-attachments/assets/1d2422e5-d408-411a-936c-2bae1206df11" />
+<img width="514" height="688" alt="image" src="https://github.com/user-attachments/assets/a7244eb5-4098-4ec1-8d3c-3d741ee41af7" />
+<img width="532" height="835" alt="image" src="https://github.com/user-attachments/assets/d25bb155-8f77-406a-9cdf-5fcd01b8b3b2" />
